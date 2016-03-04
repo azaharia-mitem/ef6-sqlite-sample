@@ -101,6 +101,8 @@ SQLite.Interop.dll 파일을 추가합니다. System.Data.SQLite.Core 패키지 
 ## EF6 SQLite 참조
 Code First EF를 구현하려고 했으나, EF6 은 SQLite 에 대한 Migration 을 공식적으로 지원하지 않습니다.
 
+[stackoverflow: Entity Framework 6 with SQLite 3 Code First - Won't create tables](http://stackoverflow.com/questions/22174212/entity-framework-6-with-sqlite-3-code-first-wont-create-tables)
+
 그래서, `data.db` 파일을 만들고, 테이블을 생성한 후 작업을 해야 합니다.
 
 > SQL Server Compact/SQLite Toolbox 확장을 설치하면 편리하게 파일 생성 및 테이블 생성을 할 수 있습니다.
@@ -114,7 +116,3 @@ EF7 부터는 지원할 예정이라고 하니, EF7 정식버전이 출시되면
 Model 디렉터리 하위의 Todo 클래스가 Todo 테이블과 맵핑되는 클래스입니다.
 
 Lib 디렉터리 하위의 DatabaseContext가 데이터베이스와 연결되어 엔티티를 관리하는 클래스입니다.
-
-
-
-[stackoverflow: Entity Framework 6 with SQLite 3 Code First - Won't create tables](http://stackoverflow.com/questions/22174212/entity-framework-6-with-sqlite-3-code-first-wont-create-tables)
