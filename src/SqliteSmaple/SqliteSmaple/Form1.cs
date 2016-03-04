@@ -69,7 +69,7 @@ namespace SqliteSmaple
                 }
                 catch (Exception ex)
                 {
-
+                    // TODO Error log
                 }
             };
 
@@ -129,7 +129,7 @@ namespace SqliteSmaple
                 }
                 catch (Exception ex)
                 {
-                    
+                    // TODO Error log   
                 }
             };
 
